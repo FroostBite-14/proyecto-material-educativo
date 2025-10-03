@@ -400,7 +400,7 @@ nav ul li a.active::after {
 }
 
 .footer-licencia img {
-  max-width: 100px; /* controla tamaño del ícono */
+  max-width: 115px; /* controla tamaño del ícono */
   height: auto;
   margin-bottom: 8px;
 }
