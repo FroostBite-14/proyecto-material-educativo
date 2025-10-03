@@ -388,22 +388,27 @@ nav ul li a.active::after {
 }
 
 .footer-licencia {
-  background-color: #ccc;
-  color: #333;
-  font-size: 14px;
-  width: 100%;
+  background-color: #c4c4c4; /* tu gris */
+  color: white;
+  text-align: center; /* centra el texto */
+  padding: 10px;
+  
+  display: flex;
+  flex-direction: column; /* apila el icono encima del texto */
+  align-items: center; /* centra horizontalmente */
+  justify-content: center;
 }
 
 .footer-licencia img {
-  margin-top: 10px;
-  height: 40px;
+  max-width: 100px; /* controla tamaño del ícono */
+  height: auto;
+  margin-bottom: 8px;
 }
 
 .footer-licencia p {
-  max-width: 600px;
-  margin: auto;
-  line-height: 1.4;
-  color: white;
+  margin: 0;
+  font-size: 0.9rem;
+  max-width: 900px;
 }
 
 /* ----------------- RESPONSIVE ----------------- */
