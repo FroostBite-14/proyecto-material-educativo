@@ -93,6 +93,11 @@ nav ul li a.active::after {
   font-weight: bold;
 }
 
+.btn-ayuda:hover {
+  background: #b2340a;
+  opacity: 0.9;
+}
+
 html {
   scroll-padding-top: var(--header-height, 70px);
 }
