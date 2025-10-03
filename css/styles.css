@@ -93,6 +93,10 @@ nav ul li a.active::after {
   font-weight: bold;
 }
 
+html {
+  scroll-padding-top: var(--header-height, 70px);
+}
+
 /* ----------------- HERO SECTION ----------------- */
 .hero {
   background: linear-gradient(rgba(0, 64, 255, 0.7), rgba(0, 64, 255, 0.7)),
@@ -157,8 +161,12 @@ nav ul li a.active::after {
   align-items: right;
   justify-items: right;
   justify-content: right;
-  width: 541px;
-  height: 453px;
+  width: 100%;
+  max-width: 541px;
+  min-width: 200px;
+  height: auto;
+  display: block;
+  object-fit: cover;
 }
 
 .hero-img img {
